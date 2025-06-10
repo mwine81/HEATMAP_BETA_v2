@@ -11,6 +11,7 @@ from helper import MantineUI, dates, product, map_df, state_data, check_ffsu_val
 from figures import create_choropleth, plot_state_timeseries, state_place_holder, empty_map_placeholder
 from polars import col as c
 from dash import html
+import traceback
 
 app = Dash(
     external_stylesheets=dmc.styles.ALL,
