@@ -253,7 +253,7 @@ layout = dmc.AppShell(
                                             [
                                                 dmc.Stack(
                                                     [
-                                                        dmc.Title("NADAC Drug Pricing Dashboard", order=2, className="brooklyn-brand brooklyn-title-lg", fw="bold"),
+                                                        dmc.Title("NADAC Drug Pricing Dashboard", order=2, className="brooklyn-brand", fw="bold"),
                                                         dmc.Text(
                                                             "Explore state-by-state Medicaid drug pricing using CMS NADAC data",
                                                             size="md",
