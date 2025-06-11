@@ -46,6 +46,7 @@ layout = dmc.AppShell(
                                         "Drug Pricing Analytics Dashboard",
                                         size="sm",
                                         className="brooklyn-subtitle brooklyn-subtitle-header",
+                                        visibleFrom="sm",
                                     ),
                                 ],
                                 gap="xs",
