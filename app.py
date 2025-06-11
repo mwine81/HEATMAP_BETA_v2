@@ -30,13 +30,10 @@ layout = dmc.AppShell(
                     dmc.Burger(id="burger", size="sm", hiddenFrom="sm", opened=False),
                     dmc.Group(
                         [
-                            dmc.ThemeIcon(
-                                DashIconify(icon="tabler:chart-line", width=32),
-                                size="xl",
-                                variant="light",
-                                color="orange",
-                                radius="md",
-                                className="brooklyn-themeicon-white-bg",
+                            html.Img(
+                                        src="/assets/brooklyn-glasses-margin.png",
+                                        className="brooklyn-logo",
+                        
                             ),
                             dmc.Stack(
                                 [

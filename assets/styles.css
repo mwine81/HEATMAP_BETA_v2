@@ -57,6 +57,13 @@ body {
     border: 1px solid var(--border-color);
 }
 
+.brooklyn-logo {
+    height: 40px;
+    width: auto;
+    border-radius: 6px;
+    background-color: var(--text-primary);
+}
+
 .main-title {
     font-size: 3rem;
     font-weight: 700;
