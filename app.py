@@ -56,7 +56,7 @@ layout = dmc.AppShell(
                     ),
                     dmc.Group(
                         [
-                            dmc.Badge("NADAC Data", color="orange", variant="light", size="md"),
+                            dmc.Badge("NADAC Data", color="orange", variant="filled", size="md"),
                             dmc.Badge("Live Dashboard", color="gray", variant="outline", size="md", className="brooklyn-badge-white"),
                         ],
                         gap="sm",
@@ -265,7 +265,7 @@ layout = dmc.AppShell(
                                                 ),
                                                 dmc.Group(
                                                     [
-                                                        dmc.Badge("46brooklyn Research", color="orange", variant="filled", size="lg"),
+                                                        dmc.Badge("46brooklyn Research", color="#1a365d", variant="filled", size="lg"),
                                                         dmc.Badge("CMS NADAC", variant="outline", size="md", className="brooklyn-badge-navy"),
                                                     ],
                                                     gap="sm",
