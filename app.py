@@ -27,13 +27,13 @@ layout = dmc.AppShell(
         dmc.AppShellHeader(
             dmc.Group(
                 [
-                    dmc.Burger(id="burger", size="sm", hiddenFrom="sm", opened=False),
+                    dmc.Burger(id="burger", size="sm", color='white', hiddenFrom="sm", opened=False),
                     dmc.Group(
                         [
-                            html.Img(
+                            dmc.Image(
                                         src="/assets/brooklyn-glasses-margin.png",
                                         className="brooklyn-logo",
-                        
+                                        visibleFrom="sm"
                             ),
                             dmc.Stack(
                                 [
