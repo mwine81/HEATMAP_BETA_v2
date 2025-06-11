@@ -596,3 +596,69 @@ body {
         height: 400px !important;
     }
 }
+
+/* New Brooklyn-specific Styles */
+.brooklyn-themeicon-white-bg {
+    background-color: white !important;
+}
+
+.brooklyn-badge-white {
+    color: white !important;
+    border-color: white !important;
+}
+
+.brooklyn-map-card {
+    margin-bottom: 2rem !important;
+    background: var(--background-secondary) !important;
+    border: 1px solid var(--border-color) !important;
+    box-shadow: var(--shadow-md) !important;
+    border-radius: var(--border-radius) !important;
+}
+
+.brooklyn-title-lg {
+    font-size: 1.75rem !important;
+    margin-bottom: 0 !important;
+    line-height: 1.2 !important;
+    color: white !important;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+.brooklyn-subtitle-header {
+    margin-top: -2px !important;
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.brooklyn-header-desc {
+    max-width: 600px !important;
+}
+
+.brooklyn-badge-navy {
+    border-color: #1a365d !important;
+    color: #1a365d !important;
+}
+
+.brooklyn-paper-instructions {
+    background-color: #fef5e7 !important;
+    border-color: #ed8936 !important;
+}
+
+.brooklyn-card-header-group {
+    /* Add any group-specific styles if needed */
+}
+
+.brooklyn-card-header-title {
+    color: white !important;
+}
+
+.brooklyn-card-header-icon {
+    color: white !important;
+}
+
+.brooklyn-card-header-desc {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.brooklyn-heatmap-graph {
+    height: 520px !important;
+}
